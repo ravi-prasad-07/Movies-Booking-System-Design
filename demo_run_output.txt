@@ -1,0 +1,203 @@
+
+===== MOVIE TICKET BOOKING =====
+1. List Movies
+2. List Shows
+3. Show Seats
+4. Book Seat and Pay
+5. Print Last Ticket
+6. Cancel Last Booking
+7. Exit
+Enter choice: 
+Available Movies:
+1. Interstellar | English | 169 min
+2. 3 Idiots | Hindi | 170 min
+3. Inception | English | 148 min
+
+===== MOVIE TICKET BOOKING =====
+1. List Movies
+2. List Shows
+3. Show Seats
+4. Book Seat and Pay
+5. Print Last Ticket
+6. Cancel Last Booking
+7. Exit
+Enter choice: 
+Available Shows:
+1. Interstellar | Screen 1 | 10:00 AM
+2. 3 Idiots | Screen 1 | 02:00 PM
+3. Inception | Screen 2 | 06:30 PM
+
+===== MOVIE TICKET BOOKING =====
+1. List Movies
+2. List Shows
+3. Show Seats
+4. Book Seat and Pay
+5. Print Last Ticket
+6. Cancel Last Booking
+7. Exit
+Enter choice: 
+Available Shows:
+1. Interstellar | Screen 1 | 10:00 AM
+2. 3 Idiots | Screen 1 | 02:00 PM
+3. Inception | Screen 2 | 06:30 PM
+Enter show number: 
+Seat Layout:
+Seat 1 [SILVER] : AVAILABLE
+Seat 2 [SILVER] : AVAILABLE
+Seat 3 [GOLD] : AVAILABLE
+Seat 4 [GOLD] : AVAILABLE
+Seat 5 [PLATINUM] : AVAILABLE
+
+===== MOVIE TICKET BOOKING =====
+1. List Movies
+2. List Shows
+3. Show Seats
+4. Book Seat and Pay
+5. Print Last Ticket
+6. Cancel Last Booking
+7. Exit
+Enter choice: 
+Available Shows:
+1. Interstellar | Screen 1 | 10:00 AM
+2. 3 Idiots | Screen 1 | 02:00 PM
+3. Inception | Screen 2 | 06:30 PM
+Enter show number: 
+Seat Layout:
+Seat 1 [SILVER] : AVAILABLE
+Seat 2 [SILVER] : AVAILABLE
+Seat 3 [GOLD] : AVAILABLE
+Seat 4 [GOLD] : AVAILABLE
+Seat 5 [PLATINUM] : AVAILABLE
+Enter seat number(s) to book (space separated): 1. UPI
+2. Card
+3. Cash
+Choose payment method: Processing UPI payment of Rs. 400
+Payment Successful
+
+========== MOVIE TICKET ==========
+Booking ID : 1001
+Movie      : Interstellar
+Screen     : 1
+Show Time  : 10:00 AM
+Seats      : 5
+Total      : Rs. 400
+Status     : CONFIRMED
+===================================
+
+===== MOVIE TICKET BOOKING =====
+1. List Movies
+2. List Shows
+3. Show Seats
+4. Book Seat and Pay
+5. Print Last Ticket
+6. Cancel Last Booking
+7. Exit
+Enter choice: 
+========== MOVIE TICKET ==========
+Booking ID : 1001
+Movie      : Interstellar
+Screen     : 1
+Show Time  : 10:00 AM
+Seats      : 5
+Total      : Rs. 400
+Status     : CONFIRMED
+===================================
+
+===== MOVIE TICKET BOOKING =====
+1. List Movies
+2. List Shows
+3. Show Seats
+4. Book Seat and Pay
+5. Print Last Ticket
+6. Cancel Last Booking
+7. Exit
+Enter choice: Exiting. Thank you!
+---- second demo: rejected double-booking + failed cancel + invalid input ----
+
+===== MOVIE TICKET BOOKING =====
+1. List Movies
+2. List Shows
+3. Show Seats
+4. Book Seat and Pay
+5. Print Last Ticket
+6. Cancel Last Booking
+7. Exit
+Enter choice: 
+Available Shows:
+1. Interstellar | Screen 1 | 10:00 AM
+2. 3 Idiots | Screen 1 | 02:00 PM
+3. Inception | Screen 2 | 06:30 PM
+Enter show number: 
+Seat Layout:
+Seat 1 [SILVER] : AVAILABLE
+Seat 2 [SILVER] : AVAILABLE
+Seat 3 [GOLD] : AVAILABLE
+Seat 4 [GOLD] : AVAILABLE
+Seat 5 [PLATINUM] : AVAILABLE
+Enter seat number(s) to book (space separated): 1. UPI
+2. Card
+3. Cash
+Choose payment method: Processing UPI payment of Rs. 400
+Payment Successful
+
+========== MOVIE TICKET ==========
+Booking ID : 1001
+Movie      : Interstellar
+Screen     : 1
+Show Time  : 10:00 AM
+Seats      : 5
+Total      : Rs. 400
+Status     : CONFIRMED
+===================================
+
+===== MOVIE TICKET BOOKING =====
+1. List Movies
+2. List Shows
+3. Show Seats
+4. Book Seat and Pay
+5. Print Last Ticket
+6. Cancel Last Booking
+7. Exit
+Enter choice: 
+Available Shows:
+1. Interstellar | Screen 1 | 10:00 AM
+2. 3 Idiots | Screen 1 | 02:00 PM
+3. Inception | Screen 2 | 06:30 PM
+Enter show number: 
+Seat Layout:
+Seat 1 [SILVER] : AVAILABLE
+Seat 2 [SILVER] : AVAILABLE
+Seat 3 [GOLD] : AVAILABLE
+Seat 4 [GOLD] : AVAILABLE
+Seat 5 [PLATINUM] : BOOKED
+Enter seat number(s) to book (space separated): Booking rejected: invalid or already-booked seat. Nothing changed.
+
+===== MOVIE TICKET BOOKING =====
+1. List Movies
+2. List Shows
+3. Show Seats
+4. Book Seat and Pay
+5. Print Last Ticket
+6. Cancel Last Booking
+7. Exit
+Enter choice: Invalid input. Enter a number.
+
+===== MOVIE TICKET BOOKING =====
+1. List Movies
+2. List Shows
+3. Show Seats
+4. Book Seat and Pay
+5. Print Last Ticket
+6. Cancel Last Booking
+7. Exit
+Enter choice: Booking 1001 cancelled. Seats released.
+
+===== MOVIE TICKET BOOKING =====
+1. List Movies
+2. List Shows
+3. Show Seats
+4. Book Seat and Pay
+5. Print Last Ticket
+6. Cancel Last Booking
+7. Exit
+Enter choice: Exiting. Thank you!
